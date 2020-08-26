@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  position: relative;
+  height: 683px;
+  width: 1024px;
+  margin: auto;
+  background-color: wheat;
+}
+
+.directionButtons {
+  position: absolute;
+  background-color: transparent;
+  font-weight: bolder;
+  font-size: 35px;
+  color: yellowgreen;
+  border: none;
+}
+
+#prev {
+  top: 50%;
+  left: 3%;
+}
+
+#next {
+  top: 50%;
+  right: 3%;
+}
+
+#selectButtons {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#selectButtons button {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  align-items: center;
+  border: none;
+  background-color: yellowgreen;
+  margin: 5px;
+}
+
+#selectButtons button:hover {
+  background-color: yellow;
+}
